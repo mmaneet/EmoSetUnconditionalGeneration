@@ -24,5 +24,5 @@ accelerate config default
 ```bash
 accelerate launch train_unconditional.py --data_root="<path/to/EmoSet/Directory/On/Your/Laptop>" --output_dir="EmoSet-unconditional-train" --mixed_precision="fp16"
 ```
-# Training
+# Inference
 use the jupyter notebook file in this repo to test inference capabilities.
