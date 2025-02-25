@@ -20,10 +20,7 @@ pip install .
 accelerate config default
 ```
 
-10. run 
-
-the following command: accelerate launch train_unconditional.py --data_root="path/to/EmoSet/Directory/On/Your/Laptop” --output_dir="EmoSet-unconditional-train" --mixed_precision="fp16”
-
+10. run the following command
 ```bash
 accelerate launch train_unconditional.py --data_root="<path/to/EmoSet/Directory/On/Your/Laptop>" --output_dir="EmoSet-unconditional-train" --mixed_precision="fp16"
 ```
